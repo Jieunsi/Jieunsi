@@ -19,5 +19,4 @@
   -  通过 Externals 加载外部 CDN 资源，优化 ElementUI 按需导入代码，减小打包后项目体积。
   -  使用Vue异步组件实现懒加载，按需加载，分担页面加载压力，提高首屏加载性能。
   -  使用$refs获取多个相同组件节点对象，减少获取DOM节点的消耗。
-  -  优化 ElementUI 按需导入代码，并使用global.css对重复CSS样式包装，减小项目体积。
   -  属性 :rule 绑定表单验证规则对象，结合 $refs 和 validate 方法实现表单预校验，使用 async、await 配合 Axios 实现异步请求。
